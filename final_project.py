@@ -22,8 +22,7 @@ from sklearn.metrics import r2_score
 import matplotlib.pyplot as plt
 
 # Load the data
-#df = pd.read_csv(r"C:\Users\asoma\OneDrive\Dokumente\Uni\Master\NCSU\Fall 2023\Analytics - From Data to Decisions\final project\kaggle_survey_2022_responses.csv", skiprows=1)
-df = pd.read_csv(r"C:\Users\asoma\OneDrive\Dokumente\Uni\Master\NCSU\Fall 2023\Analytics - From Data to Decisions\final project\kaggle_survey_2022_responses.csv", skiprows=1)
+df = pd.read_csv("kaggle_survey_2022_responses.csv", skiprows=1)
 
 # Function to preprocess salary range
 def preprocess_salary_range(salary_range):
